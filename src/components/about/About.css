@@ -1,0 +1,97 @@
+@font-face{
+    font-family: 'La Belle Aurore';
+    src: url('../../fonts/LaBelleAurore-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Redressed';
+    src: url('../../fonts/Redressed-Regular.ttf');
+}
+
+.About{ 
+    width: 100%;
+    min-height: 100vh;
+}
+
+.text-principale-about{
+    margin: 50px 60px 0 90px;
+}
+
+.text-primary-about{
+    opacity: 1;
+    color: #fff;
+    font-size: 56px;
+    line-height: 70px;
+    margin: 0;
+    color: #08fdd8;
+}
+
+
+.text-primary-about span:hover{
+}
+
+.text-primary-about::before{
+    content: '<h1>';
+    opacity: .5;
+    font-size: 20px;
+    margin-right: 10px;
+    font-family: 'La Belle Aurore';
+    font-weight: normal;
+    color: #a5a5a5;
+}
+
+.text-primary-about::after{
+    content: '</h1>';
+    font-size: 20px;
+    margin-left: 10px;
+    opacity: .5;
+    font-family: 'La Belle Aurore';
+    font-weight: normal;
+    color: #a5a5a5;
+}
+
+.html-open-span-about{
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: 'La Belle Aurore';
+    font-weight: normal;
+}
+
+.body-open-span-about{
+    display: block;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: 'La Belle Aurore';
+    font-weight: normal;
+}
+
+.html-closed-span-about{
+    display: block;
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: 'La Belle Aurore';
+    font-weight: normal;
+}
+
+.body-closed-span-about{
+    display: block;
+    margin-top: 150px;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: 'La Belle Aurore';
+    font-weight: normal;
+}
+
+.logo-principale{
+    float: right;
+    top: 0;
+    right: 0;
+}
+
+.logo-principale img{
+    margin-top: 60%;
+    margin-right: 70px;
+    background: #1d1d1d;
+}

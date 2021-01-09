@@ -1,0 +1,125 @@
+@font-face{
+    font-family: 'La Belle Aurore';
+    src: url('../../fonts/LaBelleAurore-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Redressed';
+    src: url('../../fonts/Redressed-Regular.ttf');
+}
+
+.Home{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.text-principale{
+    margin: 50px 60px 0 90px;
+}
+
+.text-primary{
+    opacity: 1;
+    color: #fff;
+    font-size: 56px;
+    line-height: 70px;
+    margin: 0;
+}
+
+
+.text-primary span:hover{
+    color: #08fdd8;
+}
+
+.text-primary::before{
+    content: '<h1>';
+    position: absolute;
+    opacity: .5;
+    margin-top: -30px;
+    font-size: 20px;
+    margin-left: -20px;
+    font-family: 'La Belle Aurore';
+    font-weight: normal;
+    color: #a5a5a5;
+}
+
+.text-primary::after{
+    content: '</h1>';
+    font-size: 20px;
+    margin-left: 10px;
+    opacity: .5;
+    font-family: 'La Belle Aurore';
+    font-weight: normal;
+    color: #a5a5a5;
+}
+
+.html-open-span{
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: 'La Belle Aurore';
+    font-weight: normal;
+}
+
+.body-open-span{
+    display: block;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: 'La Belle Aurore';
+    font-weight: normal;
+}
+
+.html-closed-span{
+    display: block;
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: 'La Belle Aurore';
+    font-weight: normal;
+}
+
+.body-closed-span{
+    display: block;
+    margin-top: 150px;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: 'La Belle Aurore';
+    font-weight: normal;
+}
+
+.specialite{
+    font-family: 'open sans';
+    letter-spacing: 3px;
+    font-weight: normal;
+    display: block;
+}
+
+.contactez-moi{
+    color: #08fdd8;
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #08fdd8;
+    margin-top: 55px;
+    float: left;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.contactez-moi:hover{
+    background: #08fdd8;
+    color: black;
+}
+
+.logo-principale{
+    float: right;
+    top: 0;
+    right: 0;
+}
+
+.logo-principale img{
+    margin-top: 60%;
+    margin-right: 70px;
+    background: #1d1d1d;
+}

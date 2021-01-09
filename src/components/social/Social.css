@@ -1,0 +1,16 @@
+.Social ul {
+    padding-left: 20px;
+    list-style-type: none;  
+}
+
+.Social li, .Social li img{
+    cursor: pointer;
+    font-size: 20px;
+    padding: 6px 0;
+    color: #a5a5a5;
+}
+
+.Social li:hover {
+    color: #08fdd8;
+}
+

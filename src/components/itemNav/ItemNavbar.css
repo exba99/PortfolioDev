@@ -1,0 +1,29 @@
+.div-icon svg{
+    font-size: 32px;
+    color: #a5a5a5;
+    line-height: 51px;
+    margin-left: 13px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.div-text{
+    color: #08fdd8;
+    position: relative;
+    z-index: 1;
+    visibility: hidden;
+    cursor: pointer;
+    height: 34px;
+    margin-top: -35px;
+    text-align: center;
+}
+
+.div-text span{
+    font-size: 9px;
+    letter-spacing: 2px;
+}
+
+.div-icon-text{
+    margin-bottom: 26px;
+}
